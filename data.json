@@ -1,0 +1,66 @@
+{
+    "drivers": {
+        "D001": {
+            "name": "Ali",
+            "zone": "A",
+            "available": true,
+            "rating": 4.8
+        },
+        "D002": {
+            "name": "Ahmed",
+            "zone": "B",
+            "available": false,
+            "rating": 4.5
+        },
+        "D003": {
+            "name": "Usman",
+            "zone": "A",
+            "available": false,
+            "rating": 4.9
+        },
+        "D004": {
+            "name": "Hamza",
+            "zone": "A",
+            "available": false,
+            "rating": 4.2
+        }
+    },
+    "deliveries": [
+        {
+            "id": "TASK001",
+            "customer": "Customer A",
+            "zone": "A",
+            "distance": 4.0,
+            "order_amount": 120.0,
+            "priority": "normal",
+            "status": "delivered",
+            "driver_id": "D001",
+            "delivery_charge": 9.0,
+            "driver_earning": 6.2
+        },
+        {
+            "id": "TASK002",
+            "customer": "Customer B",
+            "zone": "B",
+            "distance": 12.0,
+            "order_amount": 80.0,
+            "priority": "urgent",
+            "status": "assigned",
+            "driver_id": "D002",
+            "delivery_charge": 36.25,
+            "driver_earning": 12.600000000000001
+        },
+        {
+            "id": "TASK003",
+            "customer": "Customer C",
+            "zone": "A",
+            "distance": 7.0,
+            "order_amount": 200.0,
+            "priority": "normal",
+            "status": "assigned",
+            "driver_id": "D004",
+            "delivery_charge": 15.5,
+            "driver_earning": 9.460000000000003
+        }
+    ]
+}
